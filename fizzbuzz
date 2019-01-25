@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main(void){
+
+int i;
+  for(i=1;i<=100;i++){
+    if((i%3)||(i%5))  
+      printf("number=%d fizzbuzz\n", i);
+    else if((i%3)==0)
+      printf("number=%d fizz\n", i);
+    else if((i%5)==0)
+      printf("number=%d buzz\n", i);
+    else
+      printf("number=%d \n", i);
+      }
+      return 0;}
