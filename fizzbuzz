@@ -2,15 +2,15 @@
 
 int main(void){
 
-int i;
-  for(i=1;i<=100;i++){
-    if((i%3)||(i%5))  
-      printf("number=%d fizzbuzz\n", i);
-    else if((i%3)==0)
-      printf("number=%d fizz\n", i);
-    else if((i%5)==0)
-      printf("number=%d buzz\n", i);
+int num;
+  for(num=1;num<=100;num++){
+    if((num%3)||(num%5))  
+      printf("number=%d fizzbuzz\n", num);
+    else if((num%3)==0)
+      printf("number=%d fizz\n", num);
+    else if((num%5)==0)
+      printf("number=%d buzz\n", num);
     else
-      printf("number=%d \n", i);
+      printf("number=%d \n", num);
       }
       return 0;}
